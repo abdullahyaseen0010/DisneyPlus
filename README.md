@@ -1,12 +1,54 @@
-# React + Vite
+# 🏰 Disney+ Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A front-end **Disney+ UI clone** built with **React 19** and **Vite**, styled with **Tailwind CSS**, and animated with **Framer Motion**. Icons via **lucide-react**.
 
-Currently, two official plugins are available:
+## Sections
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Navbar** – Disney+ style navigation
+- **Hero Carousel** – rotating featured banner
+- **Production Houses Slider** – Marvel/Pixar/Star Wars/National Geographic-style brand slider
+- **Continue Watching**
+- **Recommended For You**
+- **Trending Now**
+- **Genres**
+- **Footer**
 
-## Expanding the ESLint configuration
+> ⚠️ **Note:** This is an **unofficial front-end practice/clone project** — it is not affiliated with, endorsed by, or connected to Disney in any way. Movie/show titles and poster images are pulled from public IMDb image URLs for demo purposes only; there's no real streaming, accounts, or backend behind it. Built purely to practice UI/animation skills, not as a product.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> 🕒 **Older project:** This was built a while back as an earlier practice project. Since then I've learned Next.js and leveled up my skills further, so the code here reflects an earlier stage of my journey rather than my current approach.
+
+## Tech Stack
+
+React · Vite · Tailwind CSS · Framer Motion · lucide-react
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+- Git installed
+
+### Installation
+
+```bash
+git clone https://github.com/abdullahyaseen0010/DisneyPlus.git
+cd DisneyPlus
+npm install
+```
+
+Then start the dev server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+
+### Scripts
+
+```bash
+npm run dev      # start development server
+npm run build    # build for production
+npm run preview  # preview the production build locally
+npm run lint     # run ESLint
+```
